@@ -22,9 +22,9 @@ public class SeamlesslyProfilePage {
     @FindBy(id = "submit-form")
     public WebElement loginButton;
 
-    @FindBy(xpath= "//img[@src='/index.php/avatar/Employee111/32?v=35']")
+    @FindBy(xpath= "//*[@id=\"expand\"]/div/img")
     public WebElement dropdownButton;
-
+//<img data-v-41fc3610="" src="/index.php/avatar/Employee111/32?v=36" alt="">
     @FindBy(xpath= "//img [@src = '/apps/settings/img/admin.svg?v=c77e0e80']")
     public WebElement SettingButton;
     @FindBy(xpath= "//div[@class='profile__header']")
